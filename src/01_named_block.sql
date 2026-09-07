@@ -1,5 +1,4 @@
-
-create or replace function factorial(num integer)
+create or replace function pl.factorial(num integer)
 returns integer as $$
 declare
   result integer := 1;
