@@ -1,8 +1,8 @@
 
---create type mixed_fields_type as
---     (d real, f all_fields_base);
+create type mixed_fields_type as
+     (d real, f all_fields_base);
 
---\d mixed_field_type
+\d mixed_field_type
 
 do
 $$
