@@ -1,11 +1,11 @@
 
-create type all_fields_base
-     as (a int, b text, c date);
+--create type all_fields_base
+--     as (a int, b text, c date);
 
-\d all_fields_base;
+--\d all_fields_base;
 
 do
-%%
+$$
 declare
      v_composite all_fields_base;
 begin
