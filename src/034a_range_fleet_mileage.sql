@@ -14,6 +14,6 @@ insert into fleet_mileage values
 
 select *, upper(readings) - lower(readings) as mileage
      from fleet_mileage
-     order by 4 descç
+     order by 4 desc;
 
 
