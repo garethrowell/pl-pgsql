@@ -9,11 +9,11 @@
 
 -- The following generates a large table using char(n)
 
--- create table test (t char(126));
+create table test (t char(126));
 
--- insert into test values ('a');
+insert into test values ('a');
 
--- select pg_column_size(t) from test;
+select pg_column_size(t) from test;
 
 -- size is 127 bytes
 
